@@ -1,1 +1,1 @@
-# CodingNinja
+# Data Structures & Algorithms
