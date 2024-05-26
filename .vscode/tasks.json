@@ -24,7 +24,7 @@
             "command": "bash",
             "args": [
                 "-c",
-                "g++ -std=c++17 -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < /home/rax/Documents/GIT/DSA/input.txt > /home/rax/Documents/GIT/DSA/output.txt"
+                "g++ -std=c++17 -o /home/rax/Documents/GIT/DSA/0.Exes/${fileBasenameNoExtension} ${file} && /home/rax/Documents/GIT/DSA/0.Exes/${fileBasenameNoExtension} < /home/rax/Documents/GIT/DSA/input.txt > /home/rax/Documents/GIT/DSA/output.txt"
             ],
             "group": {
                 "kind": "build",
