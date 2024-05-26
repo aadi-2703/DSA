@@ -38,6 +38,12 @@ void change(string &name){
     cout << name << endl;
 }
 
+// array always goes with reference
+void timepass( int arr[],int n){
+    arr[0] += 100;
+    cout << "Value inside function: " << arr[0] <<endl;
+}
+
 int main(){
     cout << "Hey!" << endl;
 
@@ -56,6 +62,16 @@ int main(){
     string name = "rakesh";
     change(name);
     cout << "Inside main function: " << name << endl;
+
+    int n =5;
+    int arr[n];
+    for(int i = 0; i < n; i = i+1){
+        cin >> arr[i];
+    }
+    timepass(arr,n);
+    cout << "Value inside int main: " << arr[0] <<endl;
+
+
 
     cout << endl;
     return 0;
