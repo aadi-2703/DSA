@@ -1,7 +1,7 @@
 // To include all teh libraires
 // #include <bits\stdc++.h>
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main(){

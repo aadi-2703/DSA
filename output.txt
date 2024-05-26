@@ -1,1 +1,8 @@
+Hey!
+5
+10
+15
+Inside main function: 5
+rakeah
+Inside main function: rakeah
 
