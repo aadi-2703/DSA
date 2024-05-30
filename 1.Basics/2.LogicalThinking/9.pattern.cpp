@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 using namespace std;
 
@@ -8,6 +6,8 @@ using namespace std;
   *  
  *** 
 *****
+ ***
+  *
 */
 
 void pattern(int n) {
@@ -16,20 +16,36 @@ void pattern(int n) {
   for (i = 0; i<n;i++){
 
     for(j=0;j<(n-i-1);j++){
-        cout << " ";
+      cout << " ";
     }
 
     for(k=0;k<(2*i)+1;k++){
-        cout << "*";
+      cout << "*";
     }
 
     for(j=0;j<(n-i-1);j++){
-        cout << " ";
+      cout << " ";
     }
 
     cout << endl;
-  }
+}
 
+
+  for (i = 0; i<n;i++){
+    for(j=0;j<i;j++){
+      cout << " ";
+    }
+
+    for(k=n+(n-1);k>(2*i);k--){
+      cout << "*";
+    }
+
+    for(j=0;j<i;j++){
+      cout << " ";
+    }
+
+    cout << endl;
+ }
 }
 
 int main(){
@@ -37,3 +53,6 @@ int main(){
   cin >> n;
   pattern(n);
 }
+int i,j,k;
+
+  
